@@ -1,0 +1,41 @@
+.repo-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  background-color: #f8f8ff;
+  border-radius: 20px;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  margin-right: 20px;
+  margin-top: 20px;
+  line-height: 0;
+}
+@media (min-width: 768px) {
+  .repo-list-item {
+    width: 30%;
+  }
+}
+.avatar-image {
+  width: 100px;
+}
+.name {
+  color: #e73959;
+  font-size: 26px;
+  line-height: 20px;
+}
+.item-card {
+  display: flex;
+  align-items: center;
+  width: 64%;
+}
+.icon {
+  width: 25px;
+}
+.count {
+  font-size: 16px;
+  margin-left: 10px;
+  color: #1e293b;
+  font-weight: 600;
+}
